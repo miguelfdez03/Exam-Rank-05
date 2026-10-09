@@ -31,7 +31,7 @@ int main(int argc, char *argv[])
 			for (int j = 0; j < w; j++) { board[i][j] = next[i][j]; }
 	}
 	for (int i = 0; i < h; i++) {
-		for (int j = 0; j < w; j++) { putchar(board[i][j] ? 'O' : ' '); }
+		for (int j = 0; j < w; j++) { putchar(board[i][j] ? 'O0' : ' '); }
 		putchar('\n');
 	}
 	return 0;
